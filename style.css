@@ -1,0 +1,44 @@
+#searchform{
+   /* position: relative;*/
+    display: flex;
+    font-size: 12px;
+    background-color: rgba(11, 165, 85, 0.295);
+    position: center;
+    justify-content:center;
+    align-content:center;
+    margin: 2em;
+    padding: 4em;
+    border-radius: 1px;
+}
+
+.content{
+    top:100em;
+}
+#main{
+    top: 200px;
+}
+
+#logo{
+    /*display:flex;*/
+    /*position:relative;*/
+}
+#logo:hover{
+    animation-name: logo-jump;
+    animation-duration:2s;
+    animation-iteration-count: 2;
+    animation-timing-function: cubic-bezier(0, 0, 0.28, 1);
+    }
+    @keyframes logo-jump{
+    0% {
+        top: 700px;
+        left: 0px;
+    
+    }
+    50% {
+        transform: scale(.6) rotate(-880deg);
+        top: 1249px;
+        left: 40000px;
+    }
+}
+
+
